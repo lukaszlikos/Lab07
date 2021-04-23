@@ -44,31 +44,6 @@ public class MainActivity extends AppCompatActivity {
         adapter = ArrayAdapter.createFromResource(this, R.array.Asortyment, android.R.layout.simple_dropdown_item_1line);
         binding.spinner.setAdapter(adapter);
 
-        binding.przyciskSkladuj.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Tutaj kod do wykonania
-            }
-        });
-
-        binding.przyciskWydaj.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //Tutaj kod do wykonia
-            }
-        });
-
-        binding.spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                //Tutaj kod do wykoania
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
-                //Nie będziemy implementować, ale musi być
-            }
-        });
 
         binding.przyciskSkladuj.setOnClickListener(new View.OnClickListener() {
             @Override
